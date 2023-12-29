@@ -5,7 +5,9 @@ import functions
 use command  $ streamlit run web.py
 """
 
+st.set_page_config(layout="wide")
 
+st.sidebar.image("images/img.png", use_column_width=True)
 def add_todo():
     todo = st.session_state["new_todo"] + "\n"
     todos.append(todo)
