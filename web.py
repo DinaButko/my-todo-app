@@ -7,7 +7,7 @@ use command  $ streamlit run web.py
 
 
 
-st.sidebar.image("images/img_1.png", use_column_width=True)
+st.sidebar.image("images/img.png", use_column_width=True)
 def add_todo():
     todo = st.session_state["new_todo"] + "\n"
     todos.append(todo)
